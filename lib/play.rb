@@ -40,9 +40,8 @@ end
 
 def play(board)
   i = 0
-  while i <= 9 do
+  until i == 9 do
     turn(board)
     i += 1
-    break if i == 10 
   end
 end
